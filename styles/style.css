@@ -438,7 +438,8 @@
 
 @media (width < 768px) {
   .container:last-of-type {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
   }
 }
