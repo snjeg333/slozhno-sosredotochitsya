@@ -397,7 +397,8 @@
 }
 
 .container:last-of-type .container__title {
-  grid-column: 1/-1;
+  grid-column-start: 1;
+  grid-column-end: 4;
   width: 100%;
   margin: 0;
 }
