@@ -1,11 +1,9 @@
 .page {
-  background-image: var(--background-image);
-  background-repeat: no-repeat;
-  background-color: var(--background-color);
-  color: var(--main-text-color);
-  background-size: cover;
-  background-position: center;
+  background: var(--background-image) no-repeat top center,
+    var(--background-color);
+  background-size: auto 768px;
   background-attachment: fixed;
+  color: var(--main-text-color);
 }
 
 .header {
