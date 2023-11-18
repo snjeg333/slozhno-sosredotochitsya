@@ -9,6 +9,7 @@
 }
 
 .header {
+  block-size: 100vh;
   padding: 0 20px;
   position: relative;
 }
@@ -444,6 +445,7 @@
 }
 
 .footer {
+  block-size: 100vh;
   position: relative;
   padding: 281px 20px;
   text-align: center;
