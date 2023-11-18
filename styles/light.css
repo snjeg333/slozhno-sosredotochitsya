@@ -32,4 +32,8 @@
   }
 }
 
+.page.theme_light .rec-decorative {
+  display: none;
+}
+
 
