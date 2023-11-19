@@ -168,7 +168,7 @@
   .header__title {
     font-size: var(--accent-heading-mobile);
     margin-left: 0;
-    line-height: 80%;
+    line-height: 86%;
   }
 }
 
@@ -188,8 +188,8 @@
 
 @media (width < 768px) {
   .header__title-container {
-    padding: 55px 0 74px;
-    gap: 53px;
+    padding: 60px 0 74px;
+    gap: 51px;
   }
 }
 
