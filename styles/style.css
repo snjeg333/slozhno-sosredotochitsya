@@ -10,8 +10,9 @@
 
 .header {
   padding: 0 20px;
-  display: grid;
-  min-block-size: 100vh;
+/*   display: grid; */
+  block-size: 100vh;
+/*   min-block-size: 100vh; */
 }
 
 @media (width < 768px) {
