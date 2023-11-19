@@ -9,8 +9,6 @@
 }
 
 .header {
-  block-size: 100vh;
-  max-height: 770px;
   padding: 0 20px;
   position: relative;
 }
@@ -446,8 +444,6 @@
 }
 
 .footer {
-  block-size: 100vh;
-  max-height: 770px;
   position: relative;
   padding: 281px 20px;
   text-align: center;
