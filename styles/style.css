@@ -455,7 +455,7 @@
   padding: 281px 20px;
   text-align: center;
   display: grid;
-  min-block-size: 100vh;
+  block-size: 100vh;
 }
 
 @media (width < 1024px) and (width >= 768px) {
@@ -466,7 +466,7 @@
 
 @media (width < 768px) {
   .footer {
-/*     margin-top: 40px; */
+    margin-top: 40px;
     padding: 262px 10px;
   }
 }
