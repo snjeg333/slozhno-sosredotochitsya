@@ -12,9 +12,7 @@
   padding: 0 20px;
   position: relative;
   display: grid;
-  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   min-block-size: 100vh;
-}
 }
 
 @media (width < 768px) {
@@ -452,9 +450,7 @@
   padding: 281px 20px;
   text-align: center;
   display: grid;
-  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   min-block-size: 100vh;
-}
 }
 
 @media (width < 1024px) and (width >= 768px) {
