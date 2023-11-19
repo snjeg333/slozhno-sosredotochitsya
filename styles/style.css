@@ -11,8 +11,10 @@
 .header {
   padding: 0 20px;
   position: relative;
-  height: 100%;
-  margin: 0;
+  display: grid;
+  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  min-block-size: 100vh;
+}
 }
 
 @media (width < 768px) {
@@ -449,8 +451,10 @@
   position: relative;
   padding: 281px 20px;
   text-align: center;
-  height: 100%;
-  margin: 0;
+  display: grid;
+  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  min-block-size: 100vh;
+}
 }
 
 @media (width < 1024px) and (width >= 768px) {
