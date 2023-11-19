@@ -455,7 +455,7 @@
   padding: 281px 20px;
   text-align: center;
   display: grid;
-  block-size: 100vh;
+  min-block-size: 100vh;
 }
 
 @media (width < 1024px) and (width >= 768px) {
