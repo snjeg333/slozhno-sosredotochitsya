@@ -11,6 +11,7 @@
 .header {
   padding: 0 20px;
   block-size: 100vh;
+  min-height: 668px;
 }
 
 @media (width < 768px) {
