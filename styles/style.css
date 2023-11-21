@@ -14,8 +14,8 @@
   grid-template-rows: 1fr min-content 1fr;
   font-size: 18px;
   block-size: 100vh;
-  padding: 20px;
   min-height: 668px;
+  padding: 20px 20px 20px 0;
 }
 
 .rec-decorative {
@@ -80,7 +80,7 @@
   line-height: 18px;
   cursor: pointer;
   text-transform: lowercase;
-  height: 24px;
+  min-height: 24px;
 }
 
 .header__theme-menu-button:hover {
@@ -104,7 +104,6 @@
 .header__title {
   font-size: var(--accent-heading-desktop);
   font-weight: 700;
-  margin-left: -20px;
   color: var(--text-color);
   text-shadow: 4px 4px 0px var(--accent-color);
   line-height: 82.5%;
@@ -182,7 +181,7 @@
 
 .link {
   border: transparent;
-  text-shadow: 3px 3px 0px var(--link-shadow);
+  text-shadow: 2px 2px 0px var(--link-shadow);
 }
 
 .link:hover {
@@ -250,6 +249,7 @@
   display: grid;
   block-size: 100vh;
   min-height: 668px;
+  padding: 20px;
 }
 
 .footer__title {
@@ -267,6 +267,10 @@
 
 @media (width < 768px) {
   .header {
+    padding: 10px;
+  }
+
+  .footer {
     padding: 10px;
   }
 
@@ -347,6 +351,14 @@
     object-position: center;
     width: 100%;
     height: 100%;
+  }
+
+  .header__theme-menu-list {
+    padding-left: 20px;
+  }
+
+  .header__title-container {
+    padding-left: 20px;
   }
 
   .container:last-of-type .container__image:first-of-type,

@@ -10,7 +10,7 @@
   --container-title-color: var(--main-text-color);
   --border-color: var(--accent-color);
   --corners-color: var(--main-text-color);
-  --link-shadow: var(--text-color);
+  --link-shadow: var(--title-decor);
   --rec-color: var(--background-color);
 }
 
@@ -27,11 +27,7 @@
     --container-title-color: var(--main-text-color);
     --border-color: var(--accent-color);
     --corners-color: var(--main-text-color);
-    --link-shadow: var(--text-color);
+    --link-shadow: var(--title-decor);
     --rec-color: var(--background-color);
   }
 }
-
-
-
-
