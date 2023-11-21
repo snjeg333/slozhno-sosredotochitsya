@@ -181,7 +181,6 @@
 }
 
 .link {
-  color: var(--container-title-color #353430);
   border: transparent;
   text-shadow: 3px 3px 0px var(--link-shadow);
 }
